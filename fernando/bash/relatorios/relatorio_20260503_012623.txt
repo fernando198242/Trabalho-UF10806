@@ -1,0 +1,31 @@
+===== RELATÓRIO DO SISTEMA =====
+Data: dom 03 mai 2026 01:26:23 WEST
+Utilizador: fernando
+Hostname: fernando
+
+===== MEMÓRIA =====
+               total        used        free      shared  buff/cache   available
+Mem:           3,8Gi       2,5Gi       327Mi        92Mi       867Mi       1,3Gi
+Swap:          3,8Gi       2,5Gi       1,2Gi
+
+===== DISCO =====
+Sistema de ficheiros Tamanho   Uso Livre Uso% Montado em
+tmpfs                   387M  2,3M  385M   1% /run
+/dev/sda2                25G   15G  8,3G  65% /
+tmpfs                   1,9G   67M  1,9G   4% /dev/shm
+tmpfs                   5,0M  8,0K  5,0M   1% /run/lock
+tmpfs                   387M  2,5M  385M   1% /run/user/1000
+
+===== IP PÚBLICO =====
+
+===== PROCESSOS MAIS PESADOS =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+fernando   14422  100  0.1  11280  4956 pts/4    R+   01:26   0:00 ps aux --sort=-%cpu
+fernando    5109  5.4 18.9 4085952 751464 ?      Sl   mai02  18:56 /snap/firefox/8247/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44099 -prefMapHandle 1:285723 -jsInitHandle 2:156120 -parentBuildID 20260427221700 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {96c2662c-1d67-4b5f-a241-f6b73119e9f4} -parentPid 3843 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8247/usr/lib/firefox/omni.ja -appomni /snap/firefox/8247/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8247/usr/lib/firefox/browser 13 tab
+fernando    2017  4.9  3.9 4090760 156860 ?      Rsl  mai02  17:08 /usr/bin/gnome-shell
+fernando    3843  4.7 10.9 12429872 433292 ?     Sl   mai02  16:20 /snap/firefox/8247/usr/lib/firefox/firefox
+fernando   10824  1.3  5.4 3136300 216924 ?      Sl   00:29   0:47 /snap/firefox/8247/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44231 -prefMapHandle 1:285723 -jsInitHandle 2:156120 -parentBuildID 20260427221700 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a5e23c43-42f5-4bbe-954c-3cc76d236dfa} -parentPid 3843 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8247/usr/lib/firefox/omni.ja -appomni /snap/firefox/8247/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8247/usr/lib/firefox/browser 110 tab
+fernando    8990  1.3 10.9 7484824 434964 ?      Sl   mai02   1:24 /snap/firefox/8247/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44232 -prefMapHandle 1:285723 -jsInitHandle 2:156120 -parentBuildID 20260427221700 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {878c36b1-638f-4f1d-ba4e-c6cc091562a9} -parentPid 3843 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8247/usr/lib/firefox/omni.ja -appomni /snap/firefox/8247/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8247/usr/lib/firefox/browser 85 tab
+fernando    2992  1.1  7.3 1461388304 289216 ?   Sl   mai02   4:04 /snap/code/232/usr/share/code/code --type=zygote --no-sandbox
+root       13802  0.8  0.0      0     0 ?        I    01:18   0:04 [kworker/u9:0-events_unbound]
+root          58  0.7  0.0      0     0 ?        S    mai02   2:48 [kswapd0]

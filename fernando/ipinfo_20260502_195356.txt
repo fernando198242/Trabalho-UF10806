@@ -1,0 +1,9 @@
+Relatório de IP Público
+Data: 02/05/2026 19:53
+
+IP Público: 193.126.51.152
+Cidade: Lisbon
+Região: Lisbon
+País: PT
+Localização GPS: 38.7251,-9.1498
+Organização / ISP: AS1897 NOS COMUNICACOES, S.A.
